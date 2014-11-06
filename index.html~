@@ -1,0 +1,62 @@
+<!doctype HTML>
+<html>
+	<head><title>Login</title>
+		<style type="text/css" media="all">@import "style/styleLogin.css";</style>
+		<style type="text/css" media="all">@import "style/styleLogin.css";</style>	
+	</head>
+	<body>
+		<div id="header"> <!-- Mulai Header -->
+			<center><img src="images/judul.png" /></center> <!--Gambar Nangkring-->
+		</div> <!-- Berakhir header -->
+		<div id="content">
+			<div id="login">
+				<div class="formSignIn">
+					<img src="images/SignIn.png" />
+					<form method="post" action="">
+						<p><input type="text" name="login" value="" placeholder="Username or Email"></p>
+						<p><input type="password" name="password" value="" placeholder="Password"></p>
+						<p class="Keep_me">
+							<label>
+								<input type="checkbox" name="Keep_me" id="Keep_me">
+								Ingatkan Saya
+							</label>
+							<a href="#">Lupa Kata Sandi ?</a>
+						</p>
+						<p class="submit"><input type="submit" name="commit" value="Sign In"></p>
+					</form>
+				</div>
+				<div class="formSignUp">
+					<img src="images/SignUp.png" />
+					<form method="post" action="">
+						<p><input type="text" name="name" value="" placeholder="Full Name"></p>
+						<p><input type="text" name="email" value="" placeholder="Email"></p>
+						<p><input type="password" name="password" value="" placeholder="Password"></p>
+						<p><input type="date" name="date" value="" placeholder="date"></p>
+						<p class="radioKu"><input type="radio" name="jk" value="laki" id="laki"/><label for="laki">Laki-laki</label>
+						<input type="radio" name="jk" value="perempuan" id="perempuan"/><label for="perempuan">Perempuan</label></p>
+						<p class="submit"><input type="submit" name="commit" value="Sign Up"></p>
+					</form>
+				</div>
+			</div>
+			<div id="sekilas">
+				<div id="pengantar">
+					<p>Nangkring<p>
+					<p>Temukan pengalaman baru, teman-teman baru, event-event seru dan jadilah nongkronger sejati</p>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<center><hr width="80%" color="#white">
+			<div id="altnav">
+				<a href="#">Tentang</a>
+				<a href="#">Pengembang</a>
+				<a href="#">Iklan</a>
+				<a href="#">Lowongan</a>
+				<a href="#">Term of Trade</a>
+				<a href="http://www.Gembalak.com/">Gembalak</a>
+				<a href="http://www.StrongDeathPeople.blogspot.com/">StrongDeathPeople</a>
+			</div>
+			<br>Copyright &copy; Gembalak 2014</center>
+		</div>
+	</body>
+</html>
